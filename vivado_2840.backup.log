@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed May 11 00:41:44 2022
+# Process ID: 2840
+# Current directory: C:/Users/bolog/Desktop/test2 - Copy/test_env
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2868 C:\Users\bolog\Desktop\test2 - Copy\test_env\test_env.xpr
+# Log file: C:/Users/bolog/Desktop/test2 - Copy/test_env/vivado.log
+# Journal file: C:/Users/bolog/Desktop/test2 - Copy/test_env\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/bolog/Desktop/test2 - Copy/test_env/test_env.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/bolog/Desktop/test2/test_env' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/prog_fac/xinxlin/instqalt/Vivado/2016.4/data/ip'.
+import_files -norecurse {C:/Users/bolog/Desktop/sgrk/ID_comp.vhd C:/Users/bolog/Desktop/sgrk/UC_comp.vhd C:/Users/bolog/Desktop/sgrk/MPG.vhd C:/Users/bolog/Desktop/sgrk/InstructionF.vhd C:/Users/bolog/Desktop/sgrk/InstructionDecode.vhd C:/Users/bolog/Desktop/sgrk/test_env.vhd C:/Users/bolog/Desktop/sgrk/reg_file.vhd C:/Users/bolog/Desktop/sgrk/SSD.vhd}
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May 11 20:21:31 2022...

@@ -1,0 +1,91 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+Process ID: 25848
+
+Current time: 	11/3/22 10:37:05 PM EET
+Time zone: 	Eastern European Time (Europe/Athens)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	D:/prog_fac/xinxlin/instqalt/Vivado/2016.4/tps/win64/jre
+
+User name: 	bolog
+User home directory: C:/Users/bolog
+User working directory: C:/Users/bolog/Desktop/Facultate/AC/Mips tot/MIPS FILA N/test2 - Copy - Copy/test_env
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI base root directory: D:/prog_fac/xinxlin/instqalt/Vivado
+RDI data directory: D:/prog_fac/xinxlin/instqalt/Vivado/2016.4/data
+RDI bin directory: D:/prog_fac/xinxlin/instqalt/Vivado/2016.4/bin
+
+Vivado preferences path: C:/Users/bolog/AppData/Roaming/Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: C:/Users/bolog/AppData/Roaming/Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	211 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 510 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bt:g (cd:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\bolog\Desktop\Facultate\AC\Mips tot\MIPS FILA N\test2 - Copy - Copy\test_env\test_env.xpr. Version: Vivado v2016.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// Tcl Message: open_project {C:/Users/bolog/Desktop/Facultate/AC/Mips tot/MIPS FILA N/test2 - Copy - Copy/test_env/test_env.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/bolog/Desktop/Facultate/AC/Mips tot/MIPS FILA N/test2 - Copy - Copy/test_env' 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 38 MB (+36922kb) [00:00:04]
+// [Engine Memory]: 417 MB (+285547kb) [00:00:04]
+// Tcl Message: open_project {C:/Users/bolog/Desktop/Facultate/AC/Mips tot/MIPS FILA N/test2 - Copy - Copy/test_env/test_env.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/bolog/Desktop/Facultate/AC/Mips tot/MIPS FILA N/test2 - Copy - Copy/test_env' INFO: [Project 1-313] Project file moved from 'C:/Users/bolog/Desktop/MIPS FILA N/test2 - Copy - Copy/test_env' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 465 MB (+28749kb) [00:00:05]
+// [GUI Memory]: 52 MB (+13162kb) [00:00:06]
+// [Engine Memory]: 497 MB (+8965kb) [00:00:06]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/prog_fac/xinxlin/instqalt/Vivado/2016.4/data/ip'. 
+// Project name: test_env; location: C:/Users/bolog/Desktop/Facultate/AC/Mips tot/MIPS FILA N/test2 - Copy - Copy/test_env; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 510 MB. GUI used memory: 33 MB. Current time: 11/3/22 10:37:06 PM EET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, reg_file - Behavioral (reg_file.vhd)]", 3, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, reg_file - Behavioral (reg_file.vhd)]", 3, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+// [GUI Memory]: 55 MB (+442kb) [00:00:10]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, test_env - Behavioral (test_env.vhd)]", 1, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, test_env - Behavioral (test_env.vhd), mpg1 - MPG - Behavioral (MPG.vhd)]", 2, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+selectCodeEditor("test_env.vhd", 78, 194); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 78, 194, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("test_env.vhd", 349, 34); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 93, 232); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("test_env.vhd", 93, 232, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// [GUI Memory]: 58 MB (+484kb) [00:01:00]
+// [GUI Memory]: 62 MB (+1074kb) [00:01:02]
+// [GUI Memory]: 66 MB (+1082kb) [00:02:43]
+// [Engine Memory]: 527 MB (+5941kb) [00:03:39]
+// [GUI Memory]: 71 MB (+1548kb) [00:05:40]

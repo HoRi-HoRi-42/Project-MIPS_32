@@ -1,0 +1,111 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Apr 11 22:24:55 2022
+# Process ID: 9012
+# Current directory: C:/Users/bolog/Desktop/test2/test_env
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6088 C:\Users\bolog\Desktop\test2\test_env\test_env.xpr
+# Log file: C:/Users/bolog/Desktop/test2/test_env/vivado.log
+# Journal file: C:/Users/bolog/Desktop/test2/test_env\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/bolog/Desktop/test2/test_env/test_env.xpr
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream -jobs 2
+wait_on_run impl_2
+open_run impl_2
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/bolog/Desktop/test2/test_env/test_env.runs/impl_2/test_env.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/bolog/Desktop/test2/test_env/test_env.runs/impl_2/test_env.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/bolog/Desktop/test2/test_env/test_env.runs/impl_2/test_env.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream -jobs 2
+wait_on_run impl_2
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/bolog/Desktop/test2/test_env/test_env.runs/impl_2/test_env.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close [ open C:/Users/bolog/Desktop/test2/test_env/test_env.srcs/sources_1/new/ID_comp.vhd w ]
+add_files C:/Users/bolog/Desktop/test2/test_env/test_env.srcs/sources_1/new/ID_comp.vhd
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream -jobs 2
+wait_on_run impl_2
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/bolog/Desktop/test2/test_env/test_env.runs/impl_2/test_env.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream -jobs 2
+wait_on_run impl_2
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream -jobs 2
+wait_on_run impl_2
+close [ open C:/Users/bolog/Desktop/test2/test_env/test_env.srcs/sources_1/new/UC_comp.vhd w ]
+add_files C:/Users/bolog/Desktop/test2/test_env/test_env.srcs/sources_1/new/UC_comp.vhd
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream -jobs 2
+wait_on_run impl_2
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream -jobs 2
+wait_on_run impl_2
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream -jobs 2
+wait_on_run impl_2
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream -jobs 2
+wait_on_run impl_2
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream -jobs 2
+wait_on_run impl_2
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream -jobs 2
+wait_on_run impl_2
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream -jobs 2
+wait_on_run impl_2
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream -jobs 2
+wait_on_run impl_2
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream -jobs 2
+wait_on_run impl_2
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/bolog/Desktop/test2/test_env/test_env.runs/impl_2/test_env.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream -jobs 2
+wait_on_run impl_2
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/bolog/Desktop/test2/test_env/test_env.runs/impl_2/test_env.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/bolog/Desktop/test2/test_env/test_env.runs/impl_2/test_env.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream -jobs 2
+wait_on_run impl_2
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/bolog/Desktop/test2/test_env/test_env.runs/impl_2/test_env.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream -jobs 2
+wait_on_run impl_2
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/bolog/Desktop/test2/test_env/test_env.runs/impl_2/test_env.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
